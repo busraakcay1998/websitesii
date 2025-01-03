@@ -1,0 +1,97 @@
+body{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	
+	background-color:beige; 
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+ul.menu{
+	background:#821D1E;
+	height: 50px;
+	
+	
+}
+ul.menu >li{
+	float: left;
+	position:relative;
+	
+	
+}
+ul.menu >li >a{
+	display: block;
+	font-size: 20px;
+	color:aliceblue;
+	padding: 0 15px;
+	line-height: 50px;
+	border-right: 1px solid rgba(0,0,0,.1);
+	width: 200px;
+	
+}
+ul.menu ul{
+	background:#575455;
+	width: 257px;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	display: none;
+}
+ul.menu ul li a{
+	display: block;
+	padding: 2px;
+	color:#fff;
+	font-size-adjust: 15px;
+	
+}
+ul.menu >li:hover ul{
+	display: block;
+}
+
+.img-container img {
+    width: 300px; 
+    
+   
+height: 200px; 
+}
+
+.resim-yazi{
+	
+	position: absolute;
+	right: 10px;
+	top:700px;
+	text-align: center;
+	
+}
+.Baslik {
+	position: absolute;
+	right: 35px;
+	top:410px;
+}
+p{
+	position: absolute;
+	right: 0px;
+	top:470px;
+	font-size: 20px;
+	left: 475px;
+}
+p1{
+	position: absolute;
+	right: 0px;
+	top:600px;
+	font-size: 20px;
+	left: 475px;
+}
+p2{
+	position: absolute;
+	right: 0px;
+	top:740px;
+	font-size: 20px;
+	left: 475px;
+}
